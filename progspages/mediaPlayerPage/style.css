@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(122, 122, 122);
+}
+#yscrool {
+    overflow-y: scroll;
+    height: 300px;
+}
+#releaseBox {
+    background-color: rgb(71, 71, 71);
+    width: 800px;
+    box-shadow: 5px 5px 5px rgb(73, 73, 73);
+}
+img {
+    box-shadow: 5px 5px 5px rgb(73, 73, 73);
+}
+h1 {
+    text-shadow: 5px 5px 5px rgb(73, 73, 73);
+    font-family: Open Sans;
+}
+h2 {
+    text-shadow: 5px 5px 5px rgb(73, 73, 73);
+    font-family: Livvic; 
+}
+#linkq {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 113, 189);
+    font-family: Livvic;
+}
+#linkq:hover {
+    text-decoration: underline;
+    color: rgb(0, 153, 255);
+}
+#box2 {
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px 15px;
+    padding: 10px 15px;
+    box-shadow: 5px 5px 5px rgb(73, 73, 73);
+    width: 700px;
+}

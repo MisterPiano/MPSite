@@ -1,0 +1,177 @@
+/*A little bit of help from WDS*/
+body {
+  margin: 0;
+  background-color: purple;
+}  
+.header {
+  background-color: #F3F3F3;
+  display: flex;
+  align-items: baseline;
+  padding: .5rem;
+  gap: 1rem;
+}  
+.link {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: #777;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  padding: 0;
+}  
+.dropdown.active > .link,
+.link:hover {
+  color: black;
+} 
+.dropdown {
+  position: relative;
+}  
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + .25rem);
+  background-color: white;
+  padding: .75rem;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}  
+.dropdown.active > .link + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 2rem;
+}
+  
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+#linked {
+    text-decoration: none;
+    font-family: Source Sans Pro;
+}
+#linked:hover {
+  text-decoration: underline;
+}
+#linq1 {
+  font-family: Lato;
+}
+#text1 {
+  color: rgb(255, 255, 255);
+}
+#col1 {
+  background-color: rgb(204, 204, 204);
+}
+#R1 {
+  background-color: rgb(255, 255, 255);
+}
+#box1 {
+  background-color: blueviolet;
+  border-radius: 15px 15px;
+  width: 500px;
+  margin-left: 50px;
+  padding: 10px 15px;
+}
+table {
+  margin-left: 101px;
+}
+#whiteh3 {
+  color: rgb(255, 255, 255);
+}
+#underlineActions {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+}
+#underlineActions:hover {
+  text-decoration: underline;
+  color: rgb(0, 150, 187);
+}
+#box2 {
+  background-color: rgb(76, 0, 255);
+  width: 350px;
+  border-radius: 15px 15px;
+  padding: 10px 15px;
+  margin-left: 50px;
+}
+#box3 {
+  background-color: rgb(255, 80, 168);
+  width: 350px;
+  border-radius: 15px 15px;
+  padding: 10px 15px;
+  margin-left: 50px;
+}
+#copyright{
+  text-align-last: center;
+}
+#box4 {
+  background-color: rgb(92, 80, 255);
+  width: 300px;
+  height: 100px;
+}
+#linq3 {
+  color: rgb(204, 82, 0);
+  text-decoration: none;
+  font-size: 20px;
+}
+#linq3:hover {
+  color: rgb(255, 102, 0);
+  text-decoration: underline;
+}
+#yscrool { /*!The scroll bar in progs page*/
+  overflow-y: scroll;
+  height: 100px;
+}
+#sfbox {
+  background-color: rgb(132, 0, 255);
+  width: 300px;
+  border-radius: 15px 15px 15px;
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+#sflinkq {
+  text-decoration: none;
+  color: rgb(0, 173, 23);
+  font-size: 20px;
+}
+#sflinkq:hover {
+  text-decoration: underline;
+  color: rgb(0, 255, 34);
+}
+#text800 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+#midilink {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 196, 59);
+}
+#midilink:hover {
+  text-decoration: underline;
+  color: rgb(0, 255, 76);
+}
+#xscrool { /*!The scroll bar in progs page*/
+  overflow-x: scroll;
+  height: 500px;
+}
+#midibox {
+  background-color: rgb(132, 0, 255);
+  width: 500px;
+  border-radius: 15px 15px 15px;
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+#box800 {
+  background-color: rgb(162, 0, 255);
+  width: 100px;
+}
