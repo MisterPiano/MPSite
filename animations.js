@@ -14,4 +14,4 @@ document.addEventListener("click", e => {
     })
   })
 
-  console.log("Site created by P.A2007")
+  console.log("Site created by P.A2007 And Mister Piano (～￣▽￣)～")
